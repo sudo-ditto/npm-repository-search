@@ -1,5 +1,5 @@
-import { ActionConstants } from "../action-constants/constants";
-import { RepositoryActions } from "../actions/repositoryActions";
+import { ActionConstants } from "../constants/actionConstants";
+import { RepositoryActions } from "../action-types/repositoryActionTypes";
 
 interface RepositoriesState {
   loading: boolean;

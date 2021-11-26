@@ -20,7 +20,7 @@ const RepositoriesInput: React.FC = () => {
   return (
     <form onSubmit={onSubmitHandler}>
       <div className={classes.field}>
-        <label htmlFor="search">What npm package are you looking for?</label>
+        <label htmlFor="search">Which npm package are you looking for?</label>
         <input
           type="text"
           id="search"

@@ -1,7 +1,7 @@
 import axios from "axios";
 import { Dispatch } from "redux";
-import { ActionConstants } from "../action-constants/constants";
-import { RepositoryActions } from "../actions/repositoryActions";
+import { ActionConstants } from "../constants/actionConstants";
+import { RepositoryActions } from "../action-types/repositoryActionTypes";
 
 export const searchRepositories = (lib: string) => {
   return async (dispatch: Dispatch<RepositoryActions>) => {

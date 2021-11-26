@@ -1,4 +1,4 @@
-import { ActionConstants } from "../action-constants/constants";
+import { ActionConstants } from "../constants/actionConstants";
 
 interface SearchRepositoriesAction {
   type: ActionConstants.SEARCH_REPOSITORIES;

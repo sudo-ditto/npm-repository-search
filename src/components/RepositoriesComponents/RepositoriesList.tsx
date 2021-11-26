@@ -1,5 +1,5 @@
 import React from "react";
-import { useSelector } from "../../hooks/useTypedSelector";
+import { useSelector } from "../../hooks/useSelector";
 import classes from "./RepositoriesList.module.css";
 
 const RepositoriesList: React.FC = () => {
