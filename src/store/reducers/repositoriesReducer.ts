@@ -7,8 +7,14 @@ interface RepositoriesState {
   data: Array<string>;
 }
 
+const initialState = {
+  loading: false,
+  error: null,
+  data: [],
+};
+
 const repositoriesReducer = (
-  state: RepositoriesState,
+  state: RepositoriesState = initialState,
   action: RepositoryActions
 ): RepositoriesState => {
   // Type Guards also work for switch cases

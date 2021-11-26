@@ -20,7 +20,7 @@ export const searchRepositories = (lib: string) => {
       );
 
       const packageNames = data.objects.map((result: any) => {
-        return result.package, name;
+        return result.package.name;
       });
 
       dispatch({
